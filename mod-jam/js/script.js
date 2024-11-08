@@ -202,6 +202,9 @@ let bounceY = 0;
 // Direction of the bounce so it looks natural 
 let bounceDirection = 1; 
 
+//hi prof pippin, this link style is because i noticed a lot of issues trying to do this the normal /assets/images/file.name way, when i did that the game wouldn't load
+//I linked directly to the repository folders and images to avoid this issue
+//very strange issue Callie helped me problem solve 
 // Preloads all the images and music
 function preload() {
     // the image of BlackCat
