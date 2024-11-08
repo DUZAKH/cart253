@@ -205,36 +205,36 @@ let bounceDirection = 1;
 // Preloads all the images and music
 function preload() {
     // the image of BlackCat
-    BlackCat.body.image = loadImage('../assets/images/BlackCat.png'); 
+    BlackCat.body.image = loadImage('/assets/images/BlackCat.png'); 
     // the image of the lady bug
-    ladybug.image = loadImage('../assets/images/LadyBug.png');
+    ladybug.image = loadImage('/assets/images/LadyBug.png');
     // the image of the itchy foot
-    itchyfoot.image = loadImage('../assets/images/FootItch.png');
+    itchyfoot.image = loadImage('/assets/images/FootItch.png');
     //the image of the ace of hearts used next to the counter
-    ace.image = loadImage('../assets/images/aceofhearts.PNG');
+    ace.image = loadImage('/assets/images/aceofhearts.PNG');
     //the image of the goldfish
-    fish.image= loadImage('../assets/images/Fish.png');
+    fish.image= loadImage('/assets/images/Fish.png');
     //the rice image
-    rice.image= loadImage('../assets/images/ChopsticksRice.png');
+    rice.image= loadImage('/assets/images/ChopsticksRice.png');
     //the wheel image
-    wheel.image= loadImage('../assets/images/FortuneWheel.png');
+    wheel.image= loadImage('/assets/images/FortuneWheel.png');
     //the owl image
-    owl.image= loadImage('../assets/images/Owl.png');
+    owl.image= loadImage('/assets/images/Owl.png');
     //the four leaf clover image
-    clover.image= loadImage('../assets/images/FourLeaf.png');
+    clover.image= loadImage('/assets/images/FourLeaf.png');
     //the broken mirror image
-    mirror.image= loadImage('../assets/images/Mirror.png');
+    mirror.image= loadImage('/assets/images/Mirror.png');
     // image of the horseshoe facing up
-    horseshoeup.image=loadImage('../assets/images/HorseShoe.png');
+    horseshoeup.image=loadImage('/assets/images/HorseShoe.png');
     //image of the horseshoe facing down 
-    horseshoedown.image=loadImage('../assets/images/HorseShoeDown.png');
+    horseshoedown.image=loadImage('/assets/images/HorseShoeDown.png');
     
     //preloads the music
-    music= loadSound("assets/sounds/music.mp3");
+    music= loadSound("/assets/sounds/music.mp3");
     
 
     //preloads the font
-    pixelFont= loadFont("assets/Jacquard_24/Jacquard24-Regular.ttf");
+    pixelFont= loadFont("/assets/Jacquard_24/Jacquard24-Regular.ttf");
 }
 
 // Canvas and background
