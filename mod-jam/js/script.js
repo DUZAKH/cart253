@@ -205,7 +205,7 @@ let bounceDirection = 1;
 // Preloads all the images and music
 function preload() {
     // the image of BlackCat
-    BlackCat.body.image = loadImage('/assets/images/BlackCat.png'); 
+    BlackCat.body.image = loadImage('https://duzakh.github.io/cart253/assets/images/BlackCat.png'); 
     // the image of the lady bug
     ladybug.image = loadImage('https://duzakh.github.io/cart253/mod-jam/assets/images/LadyBug.png');
     // the image of the itchy foot
