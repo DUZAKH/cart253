@@ -205,6 +205,9 @@ let bounceDirection = 1;
 //hi prof pippin, this link style is because i noticed a lot of issues trying to do this the normal /assets/images/file.name way, when i did that the game wouldn't load
 //I linked directly to the repository folders and images to avoid this issue
 //very strange issue Callie helped me problem solve 
+//it had the same problem on hers but we ended up fixing it by doing links to the github like this and then putting the normal one 
+// here it is on callies with the right code: https://callieevans.github.io/cart253/Kiana/
+
 // Preloads all the images and music
 function preload() {
     // the image of BlackCat
